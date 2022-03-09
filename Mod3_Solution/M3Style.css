@@ -1,0 +1,123 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #DECFAB;
+	font-family: Verdana, sans-serif;
+}
+
+#header-nav {
+	background-color: #000;
+	border-radius: 0;
+	border: 0;
+
+}
+
+.navbar-custom {
+	height: 100px;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	font-family: Verdana, monospace;
+	color: #fff;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0px;
+	line-height: .75;
+	padding-left: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+text-decoration: none;
+}
+
+#header-2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #BA1414;
+	font-weight: bold;
+	font-size: 2.5em;
+	font-family: Verdana, sans-serif;
+}
+
+.paraf {
+	background-color: #D49D64;
+}
+
+#paraf-1 {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+	color: #5C3C18;
+}
+
+#paraf-2 {
+	font-family: Times New Roman, sans-serif;
+	margin-top: 25px;
+	text-align: justify;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #000;
+}
+
+.navbar-toogle {
+	position: relative;
+	float: right;
+	padding: 10px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: 15px;
+	background-color: transparent;
+	background-image: none;
+	border: 2px solid #fff;
+	border-radius: 4px;
+}
+
+.navbar-toogle:focus {
+	outline: 0;
+}
+
+.navbar-toogle .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+}
+
+.navbar-toogle .icon-bar + .icon-bar {
+	margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+	.navbar-toogle {
+		display: none;
+	}
+} 
+
+
+
+#nav-list a {
+	color: transparent;
+	background: transparent;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 767px) {
+
+}
